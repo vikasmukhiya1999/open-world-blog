@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="auther" content="" />
+    <meta
+      name="title"
+      content="Beyond the Horizon | Endless Possibilities | Journey Through Open Worlds"
+    />
+    <meta
+      name="description"
+      content="Your go-to destination for all things open world blog. Read reviews, explore guides, and stay up-to-date with the latest trends and tips in vast virtual worlds."
+    />
+
+    <link rel="shortcut icon" href="./img/title-logo.png" type="image/x-icon" />
+    <title>OpenWorld Blog | Ideas | Innovation | Explore the Horizon</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- hamburger -->
+      <div class="hamburger" id="hamburger">
+        <i class="fa fa-bars"></i>
+      </div>
+
+      <!-- title logo -->
+      <div class="logo">
+        <h1>OPEN<span>WORLD</span></h1>
+        <p>Explore the Horizon</p>
+      </div>
+
+      <!-- navigation -->
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Blog <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Tech Innovations</a></li>
+              <li><a href="#">AI & Future</a></li>
+              <li><a href="#">Digital Transformation</a></li>
+              <li><a href="#">Emerging Trends</a></li>
+            </ul>
+          </li>
+          <li><a href="#about-us">About</a></li>
+          <li><a href="#contact-us">Contact</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+
+        <!-- search  -->
+        <div class="search-bar">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
+      </nav>
+      
+    </header>
+
+    <!-- Cover Section -->
+    <section class="cover">
+      <div class="overlay">
+        <h1>Explore the Horizon of Technology</h1>
+        <p>
+          Dive into the future where cutting-edge technology meets limitless
+          possibilities. Discover the trends shaping tomorrow's world, today.
+        </p>
+        <a href="#blog" class="explore-btn">Explore Now</a>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <main id="blog">
+      <section class="blog-posts">
+        <article class="post">
+          <img src="./img/blog_cover/1.png" alt="Blog post 1" />
+          <h3>Post Title 1</h3>
+          <p>Short description of the blog post. Explore the world beyond.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <img src="./img/blog_cover/2.jpg" alt="Blog post 2" />
+          <h3>Post Title 2</h3>
+          <p>Short description of the blog post. Dive into the unknown.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <img src="./img/blog_cover/3.jpg" alt="Blog post 3" />
+          <h3>Post Title 3</h3>
+          <p>Short description of the blog post. Expand your horizons.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <img src="./img/blog_cover/4.jpg" alt="Blog post 1" />
+          <h3>Post Title 4</h3>
+          <p>Short description of the blog post. Explore the world beyond.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <img src="./img/blog_cover/5.jpg" alt="Blog post 2" />
+          <h3>Post Title 5</h3>
+          <p>Short description of the blog post. Dive into the unknown.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <img src="./img/blog_cover/6.jpg" alt="Blog post 3" />
+          <h3>Post Title 6</h3>
+          <p>Short description of the blog post. Expand your horizons.</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+      </section>
+    </main>
+
+    <!-- About-Us Section -->
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <h1>About Us</h1>
+        <p>
+          Welcome to OpenWorld Blog—your hub for exploring the future of
+          innovation and technology. We inspire individuals and businesses to
+          embrace new ideas and thrive in a rapidly changing world. From AI and
+          quantum computing to personal growth and the future of work, we cover
+          the latest trends at the intersection of tech and human potential.
+          Join us as we explore opportunities, tackle challenges, and shape a
+          better tomorrow.
+        </p>
+      </div>
+    </section>
+    <br />
+
+    <!-- Contact-us Section -->
+    <section class="contact-us" id="contact-us">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          We'd love to hear from you! Whether you have questions, feedback, or
+          just want to say hello, feel free to reach out.
+        </p>
+
+        <!-- form -->
+        <form class="form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name.."
+            required
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@email.com"
+            required
+          />
+
+          <label for="country">Country</label>
+          <input
+            type="text"
+            id="country"
+            name="country"
+            value="India"
+            placeholder="Your country.."
+            required
+          />
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 100px"
+            required
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+
+        <!-- email contact -->
+        <div class="contact-info">
+          <h2>Mail</h2>
+          <p>
+            <strong>General Inquiries:</strong>
+            <a href="mailto:info@openworldblog.com">info@openworldblog.com</a>
+          </p>
+          <p>
+            <strong>Support:</strong>
+            <a href="mailto:support@openworldblog.com"
+              >support@openworldblog.com</a
+            >
+          </p>
+          <p>
+            <strong>Partnerships:</strong>
+            <a href="mailto:partnerships@openworldblog.com"
+              >partnerships@openworldblog.com</a
+            >
+          </p>
+
+          <!-- social links -->
+          <h2>Social Media</h2>
+          <div class="social-links">
+            <a target="_blank" href="https://www.instagram.com/"
+              ><img
+                src="./img/social-img/instagram.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a target="_blank" href="https://in.linkedin.com/"
+              ><img
+                src="./img/social-img/linkedin.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a target="_blank" href="https://web.telegram.org/"
+              ><img
+                src="./img/social-img/telegram.png"
+                alt="Telegram"
+                class="social-icon"
+            /></a>
+            <a target="_blank" href="https://twitter.com/"
+              ><img
+                src="./img/social-img/twitter.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+
+          <!-- phone contact -->
+          <h2>Phone</h2>
+          <p><strong>Main Office:</strong> +1 (555) 123-4567</p>
+          <p><strong>Support Line:</strong> +1 (555) 987-6543</p>
+          <p>
+            <strong>Office Address:</strong> OpenWorld Blog HQ, 123 Innovation
+            Drive, Tech City, CA 90210, United States
+          </p>
+        </div>
+      </div>
+    </section>
+    <br />
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <!-- short brief About Us Section -->
+        <div class="footer-about">
+          <div class="logo">
+            <h1>OPEN<span>WORLD</span></h1>
+            <p>
+              OpenWorld Blog is your go-to platform for discovering the future
+              of innovation and technology. We share insights into trends that
+              shape tomorrow's world, today.
+            </p>
+          </div>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-social">
+          <h2>Follow Us</h2>
+          <a href="https://www.instagram.com/" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://in.linkedin.com/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+          <a href="https://web.telegram.org/" target="_blank"
+            ><i class="fa fa-telegram"></i
+          ></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><i class="fa fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+      <p>&copy; 2024 OpenWorld Blog. All rights reserved. | Made with <span id="hearts">&hearts;</span> in India | Thank you <strong><em><mark>Internshala
+        Trainings</mark></em></strong>.</p>
+    </footer>
+  </body>
+</html>
